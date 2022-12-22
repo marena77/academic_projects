@@ -1,0 +1,18 @@
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Start test pbt:0:test_simple_def.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: law test_simple_def: 1000 relevant cases (1000 total)
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Test pbt:0:test_simple_def is successful.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: End test pbt:0:test_simple_def.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Start test pbt:2:test_sum_small_ints.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: law test_sum_small_ints: 1000 relevant cases (1000 total)
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Test pbt:2:test_sum_small_ints is successful.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: End test pbt:2:test_sum_small_ints.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Start test pbt:3:test_operator_precedence.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: law test_operator_precedence: 1000 relevant cases (1000 total)
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: 
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: Test pbt:3:test_operator_precedence is successful.
+2021-04-19T20:43:34+00:00 Maxs-MacBook-Pro-2.local#01 I: End test pbt:3:test_operator_precedence.

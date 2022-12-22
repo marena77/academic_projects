@@ -1,0 +1,128 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /Users/maxarena/cmsc330spring21/project4b
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/48/h9ww9xvd17g46bnv_8m3jg4m0000gn/T/dunefd18d0.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/maxarena/.opam/4.11.0/bin/ocamlc.opt -config > /var/folders/48/h9ww9xvd17g46bnv_8m3jg4m0000gn/T/dune206d5b.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/maxarena/.opam/4.11.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/maxarena/.opam/4.11.0/bin"
+#  ; ocaml = Ok External "/Users/maxarena/.opam/4.11.0/bin/ocaml"
+#  ; ocamlc = External "/Users/maxarena/.opam/4.11.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/maxarena/.opam/4.11.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/maxarena/.opam/4.11.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/maxarena/.opam/4.11.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/maxarena/.opam/4.11.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/maxarena/cmsc330spring21/project4b"
+#        ; "INSIDE_DUNE" :
+#            "/Users/maxarena/cmsc330spring21/project4b/_build/default"
+#        ; "MANPATH" :
+#            "/Users/maxarena/cmsc330spring21/project4b/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/maxarena/cmsc330spring21/project4b/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/maxarena/cmsc330spring21/project4b/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/maxarena/cmsc330spring21/project4b/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/maxarena/.opam/4.11.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.0"
+#      ; standard_library_default = "/Users/maxarena/.opam/4.11.0/lib/ocaml"
+#      ; standard_library = "/Users/maxarena/.opam/4.11.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.5.0"
+#      ; target = "x86_64-apple-darwin19.5.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlc.opt -w -40 -g -bin-annot -I test/.testUtils.objs/byte -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -no-alias-deps -o test/.testUtils.objs/byte/testUtils.cmo -c -impl test/testUtils.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -o test/.testUtils.objs/native/testUtils.cmx -c -impl test/testUtils.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -a -o test/testUtils.cmxa test/.testUtils.objs/native/testUtils.cmx)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlc.opt -w -40 -g -bin-annot -I test/pbt/.pbt.eobjs/byte -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/qcheck -I /Users/maxarena/.opam/4.11.0/lib/qcheck-core -I /Users/maxarena/.opam/4.11.0/lib/qcheck-core/runner -I /Users/maxarena/.opam/4.11.0/lib/qcheck-ounit -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -no-alias-deps -o test/pbt/.pbt.eobjs/byte/dune__exe__Pbt.cmo -c -impl test/pbt/pbt.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlc.opt -w -40 -g -bin-annot -I test/public/.public.eobjs/byte -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -no-alias-deps -o test/public/.public.eobjs/byte/dune__exe__Public.cmo -c -impl test/public/public.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/pbt/.pbt.eobjs/byte -I test/pbt/.pbt.eobjs/native -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/qcheck -I /Users/maxarena/.opam/4.11.0/lib/qcheck-core -I /Users/maxarena/.opam/4.11.0/lib/qcheck-core/runner -I /Users/maxarena/.opam/4.11.0/lib/qcheck-ounit -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -intf-suffix .ml -no-alias-deps -o test/pbt/.pbt.eobjs/native/dune__exe__Pbt.cmx -c -impl test/pbt/pbt.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/public/.public.eobjs/byte -I test/public/.public.eobjs/native -I /Users/maxarena/.opam/4.11.0/lib/bytes -I /Users/maxarena/.opam/4.11.0/lib/oUnit -I /Users/maxarena/.opam/4.11.0/lib/ounit2 -I /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced -I /Users/maxarena/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -intf-suffix .ml -no-alias-deps -o test/public/.public.eobjs/native/dune__exe__Public.cmx -c -impl test/public/public.ml)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -o test/public/public.exe /Users/maxarena/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/maxarena/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/maxarena/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/maxarena/.opam/4.11.0/lib/ocaml /Users/maxarena/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/maxarena/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/testUtils.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default && /Users/maxarena/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -o test/pbt/pbt.exe /Users/maxarena/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/maxarena/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/maxarena/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/maxarena/.opam/4.11.0/lib/ocaml /Users/maxarena/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/maxarena/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/maxarena/.opam/4.11.0/lib/ounit2/oUnit.cmxa /Users/maxarena/.opam/4.11.0/lib/qcheck-core/qcheck_core.cmxa /Users/maxarena/.opam/4.11.0/lib/qcheck-core/runner/qcheck_runner.cmxa /Users/maxarena/.opam/4.11.0/lib/qcheck-ounit/qcheck_ounit.cmxa /Users/maxarena/.opam/4.11.0/lib/qcheck/qcheck.cmxa test/testUtils.cmxa test/pbt/.pbt.eobjs/native/dune__exe__Pbt.cmx)
+$ (cd _build/default/test/public && ./public.exe)
+> ..............................
+> Ran: 30 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test/pbt && ./pbt.exe)
+> ....
+> Ran: 4 tests in: 0.12 seconds.
+> OK
