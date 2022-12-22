@@ -1,0 +1,11 @@
+In general, nodes do the following:
+
+Set up async IO, so that when a data packet comes in, we use a signal handler function
+to update routing table with that information
+We set this up on all directly connected link sockets, any of which could trigger the 
+handler function
+
+Set up a signal alarm which sends an ad packet automatically every update_time seconds
+
+general walk_el function fixes routing table based on topology changes, constructs and ad 
+packet and sends to all directly connected neighbors

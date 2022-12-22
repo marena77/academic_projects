@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Collaborative Art</string>
+    <string name="username_string">UserName</string>
+    <string name="password_string">Password</string>
+    <string name="login">Login</string>
+    <string name="hello">Hello %1$s!</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="invalid_email">Username must be a valid email address</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+    <!--Navbar Strings-->
+    <string name="navbar_map_caption">Map</string>
+    <string name="navbar_feed_caption">Feed</string>
+    <string name="navbar_post_caption">Post</string>
+    <string name="navbar_favorites_caption">Favorites</string>
+    <string name="navbar_settings_caption">Settings</string>
+    <string name="navbar_default_caption">PUSH ME</string>
+    <string name="navbar_profile_caption">Profile</string>
+
+    <!--Post Strings-->
+    <string name="need_permission_string">This app requires your permission in order to take a photo.</string>
+
+    <!-- Feed Strings -->
+    <string name="memoir_text_string">This is a six word memoir.</string>
+    <string name="date_string">%1$d - %2$d</string>
+    <string name="author_string">%1$s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_for_post">image</string>
+
+    <!--Map Strings-->
+    <string name="fab_content_description">Posts button</string>
+    <string name="get_request_progress">Performing GET request …</string>
+    <string name="send_request_error">Send network request failed.</string>
+    <string name="need_location_permission">This app needs permission to access your current location.</string>
+
+
+</resources>

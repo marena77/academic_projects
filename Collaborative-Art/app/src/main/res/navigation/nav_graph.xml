@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentLogin">
+
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.example.collaborativeart.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragmentLogin_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navBarFragment"
+        android:name="com.example.collaborativeart.NavBarFragment"
+        android:label="fragment_navbar"
+        tools:layout="@layout/fragment_nav_bar">
+        <!--
+        <action
+            android:id="@+id/action_nav_bar_to_map"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_nav_bar_to_feed"
+            app:destination="@id/feedFragment" />
+        <action
+            android:id="@+id/action_nav_bar_to_post"
+            app:destination="@id/postFragment" />
+        <action
+            android:id="@+id/action_nav_bar_to_favorites"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_nav_bar_to_settings"
+            app:destination="@id/settingsFragment" /> -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.collaborativeart.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name='userName'
+            app:argType='string'/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.collaborativeart.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed">
+    </fragment>
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.collaborativeart.PostFragment"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post">
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.collaborativeart.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites">
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.collaborativeart.PermissionFragment"
+        android:label="PermissionFragment">
+        <action
+            android:id="@+id/action_permissionFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/permissionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+</navigation>
